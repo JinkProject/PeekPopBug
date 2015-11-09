@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ViewControllerTwo.h
 //  PeekPopBug
 //
 //  Created by Stephen Whitfield on 11/9/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewControllerTwo : UIViewController
 
 @end
-

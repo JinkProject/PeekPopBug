@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		F6FC068E1BF1198900E8737C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FC068D1BF1198900E8737C /* main.m */; };
 		F6FC06911BF1198900E8737C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FC06901BF1198900E8737C /* AppDelegate.m */; };
-		F6FC06941BF1198900E8737C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FC06931BF1198900E8737C /* ViewController.m */; };
 		F6FC06971BF1198900E8737C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FC06951BF1198900E8737C /* Main.storyboard */; };
 		F6FC06991BF1198900E8737C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6FC06981BF1198900E8737C /* Assets.xcassets */; };
 		F6FC069C1BF1198900E8737C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FC069A1BF1198900E8737C /* LaunchScreen.storyboard */; };
+		F6FC06A51BF119F000E8737C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FC06A41BF119F000E8737C /* TableViewController.m */; };
+		F6FC06A81BF1204A00E8737C /* ViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FC06A71BF1204A00E8737C /* ViewControllerTwo.m */; };
+		F6FC06AA1BF1327700E8737C /* README in Resources */ = {isa = PBXBuildFile; fileRef = F6FC06A91BF1327700E8737C /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,15 @@
 		F6FC068D1BF1198900E8737C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F6FC068F1BF1198900E8737C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F6FC06901BF1198900E8737C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F6FC06921BF1198900E8737C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F6FC06931BF1198900E8737C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F6FC06961BF1198900E8737C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6FC06981BF1198900E8737C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6FC069B1BF1198900E8737C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6FC069D1BF1198900E8737C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6FC06A31BF119F000E8737C /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		F6FC06A41BF119F000E8737C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		F6FC06A61BF1204A00E8737C /* ViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerTwo.h; sourceTree = "<group>"; };
+		F6FC06A71BF1204A00E8737C /* ViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTwo.m; sourceTree = "<group>"; };
+		F6FC06A91BF1327700E8737C /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +63,14 @@
 		F6FC068B1BF1198900E8737C /* PeekPopBug */ = {
 			isa = PBXGroup;
 			children = (
+				F6FC06A31BF119F000E8737C /* TableViewController.h */,
+				F6FC06A41BF119F000E8737C /* TableViewController.m */,
+				F6FC06A61BF1204A00E8737C /* ViewControllerTwo.h */,
+				F6FC06A71BF1204A00E8737C /* ViewControllerTwo.m */,
 				F6FC068F1BF1198900E8737C /* AppDelegate.h */,
 				F6FC06901BF1198900E8737C /* AppDelegate.m */,
-				F6FC06921BF1198900E8737C /* ViewController.h */,
-				F6FC06931BF1198900E8737C /* ViewController.m */,
 				F6FC06951BF1198900E8737C /* Main.storyboard */,
+				F6FC06A91BF1327700E8737C /* README */,
 				F6FC06981BF1198900E8737C /* Assets.xcassets */,
 				F6FC069A1BF1198900E8737C /* LaunchScreen.storyboard */,
 				F6FC069D1BF1198900E8737C /* Info.plist */,
@@ -136,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6FC06AA1BF1327700E8737C /* README in Resources */,
 				F6FC069C1BF1198900E8737C /* LaunchScreen.storyboard in Resources */,
 				F6FC06991BF1198900E8737C /* Assets.xcassets in Resources */,
 				F6FC06971BF1198900E8737C /* Main.storyboard in Resources */,
@@ -149,9 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6FC06941BF1198900E8737C /* ViewController.m in Sources */,
 				F6FC06911BF1198900E8737C /* AppDelegate.m in Sources */,
+				F6FC06A51BF119F000E8737C /* TableViewController.m in Sources */,
 				F6FC068E1BF1198900E8737C /* main.m in Sources */,
+				F6FC06A81BF1204A00E8737C /* ViewControllerTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

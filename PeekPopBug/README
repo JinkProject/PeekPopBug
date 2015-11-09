@@ -1,0 +1,7 @@
+PeekPop bug:
+==============
+Make sure you have an iPhone 6S/6S+.
+
+1. Set the force touch sensitivity to the most sensitive setting.
+2. Invoke force touch action by gently pressing into the screen. You might have to do this several times before the issue occurs.
+3. The screen should freeze, but the app should still be running. Debug the app using View Hierarchy debugger.
